@@ -68,6 +68,10 @@ Objective: Analyze how users are engaging with the email service.
 Your Task: Write an SQL query to calculate the email engagement metrics.
 
 
+## Dataset
 
+[Case study 1 Dataset](https://drive.google.com/file/d/1t0LbH6j_hunxIvj510TvCZlCQHxiSn1X/view?usp=sharing)
+
+[Case study 2 Dataset](https://drive.google.com/drive/folders/15AWzLtyQMeX7WyW5m6XR_h0zkz9h4Gi7?usp=sharing)
 
 
