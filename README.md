@@ -8,12 +8,12 @@ In this project, you'll take on the role of a Lead Data Analyst at a company lik
 
 
 
-## Case Study 1: Job Data Analysis
+## Case Study 1: Job Data Analysis  
 
 You will be working with a table named job_data with the following columns:
 
-job_id: Unique identifier of jobs/nactor_id: Unique identifier of actor  
-actor_id: Unique identifier of actor  
+job_id: Unique identifier of jobs  
+actor_id: Unique identifier of actor      
 event: The type of event (decision/skip/transfer)  
 language: The Language of the content  
 time_spent: Time spent to review the job in seconds  
@@ -22,12 +22,12 @@ ds: The date in the format yyyy/mm/dd (stored as text).
 
 ## Tasks:
 
-A. Jobs Reviewed Over Time:
-Objective: Calculate the number of jobs reviewed per hour for each day in November 2020.
-Your Task: Write an SQL query to calculate the number of jobs reviewed per hour for each day in November 2020.
+## A. Jobs Reviewed Over Time:  
+   Objective: Calculate the number of jobs reviewed per hour for each day in November 2020.  
+   Your Task: Write an SQL query to calculate the number of jobs reviewed per hour for each day in November 2020.
 
-B. Throughput Analysis:
-    Objective: Calculate the 7-day rolling average of throughput (number of events per second).
+B. Throughput Analysis:  
+Objective: Calculate the 7-day rolling average of throughput (number of events per second).  
     Your Task: Write an SQL query to calculate the 7-day rolling average of throughput. Additionally, explain whether you prefer using the     daily metric or the 7-day rolling average for throughput, and why.
 
 C. Language Share Analysis:
@@ -68,4 +68,8 @@ E. Email Engagement Analysis:
 Objective: Analyze how users are engaging with the email service.
 
 Your Task: Write an SQL query to calculate the email engagement metrics.
+
+
+
+
 
