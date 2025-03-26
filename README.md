@@ -65,5 +65,6 @@ D. Weekly Engagement Per Device:
 E. Email Engagement Analysis:
 
 Objective: Analyze how users are engaging with the email service.
+
 Your Task: Write an SQL query to calculate the email engagement metrics.
 
