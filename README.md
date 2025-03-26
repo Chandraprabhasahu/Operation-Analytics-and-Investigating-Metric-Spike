@@ -12,7 +12,7 @@ In this project, you'll take on the role of a Lead Data Analyst at a company lik
 
 You will be working with a table named job_data with the following columns:
 
-job_id: Unique identifier of jobs
+job_id: Unique identifier of jobs/nactor_id: Unique identifier of actor
 
 actor_id: Unique identifier of actor
 
