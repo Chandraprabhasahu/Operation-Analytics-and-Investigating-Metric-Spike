@@ -8,7 +8,7 @@ In this project, you'll take on the role of a Lead Data Analyst at a company lik
 
 
 
-Case Study 1: Job Data Analysis
+## Case Study 1: Job Data Analysis
 You will be working with a table named job_data with the following columns:
 
 job_id: Unique identifier of jobs
