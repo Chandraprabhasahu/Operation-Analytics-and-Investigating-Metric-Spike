@@ -63,6 +63,7 @@ D. Weekly Engagement Per Device:
     Your Task: Write an SQL query to calculate the weekly engagement per device.
 
 E. Email Engagement Analysis:
-    Objective: Analyze how users are engaging with the email service.
-    Your Task: Write an SQL query to calculate the email engagement metrics.
+
+Objective: Analyze how users are engaging with the email service.
+Your Task: Write an SQL query to calculate the email engagement metrics.
 
