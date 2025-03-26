@@ -23,6 +23,7 @@ ds: The date in the format yyyy/mm/dd (stored as text).
 
 A. Jobs Reviewed Over Time:
     Objective: Calculate the number of jobs reviewed per hour for each day in November 2020.
+
     Your Task: Write an SQL query to calculate the number of jobs reviewed per hour for each day in November 2020.
 
 B. Throughput Analysis:
