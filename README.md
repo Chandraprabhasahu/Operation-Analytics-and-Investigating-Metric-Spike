@@ -19,7 +19,7 @@ time_spent: Time spent to review the job in seconds.
 org: The Organization of the actor
 ds: The date in the format yyyy/mm/dd (stored as text).
 
-Tasks:
+## Tasks:
 
 A. Jobs Reviewed Over Time:
     Objective: Calculate the number of jobs reviewed per hour for each day in November 2020.
@@ -37,14 +37,14 @@ D. Duplicate Rows Detection:
     Objective: Identify duplicate rows in the data.
     Your Task: Write an SQL query to display duplicate rows from the job_data table.
 
-Case Study 2: Investigating Metric Spike
+## Case Study 2: Investigating Metric Spike
 You will be working with three tables:
 
 users: Contains one row per user, with descriptive information about that user’s account.
 events: Contains one row per event, where an event is an action that a user has taken (e.g., login, messaging, search).
 email_events: Contains events specific to the sending of emails.
 
-Tasks:
+## Tasks:
 
 A. Weekly User Engagement:
     Objective: Measure the activeness of users on a weekly basis.
