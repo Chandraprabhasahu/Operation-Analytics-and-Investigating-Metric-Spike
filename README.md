@@ -1,77 +1,106 @@
-# Operation-Analytics-and-Investigating-Metric-Spike
+# Operational Analytics and Investigating Metric Spikes
 
-Operational Analytics is a crucial process that involves analyzing a company's end-to-end operations. This analysis helps identify areas for improvement within the company. As a Data Analyst, you'll work closely with various teams, such as operations, support, and marketing, helping them derive valuable insights from the data they collect.
+##  Project Overview
+This project showcases a comprehensive Operational Analytics case study, designed to simulate a real-world role as a **Lead Data Analyst** at a major tech company like Microsoft. The core objective is to leverage **advanced SQL skills** to derive insights from various datasets that reflect real-time operational activities and to investigate sudden **metric spikes** affecting business performance.
 
-One of the key aspects of Operational Analytics is investigating metric spikes. This involves understanding and explaining sudden changes in key metrics, such as a dip in daily user engagement or a drop in sales. As a Data Analyst, you'll need to answer these questions daily, making it crucial to understand how to investigate these metric spikes.
+Operational Analytics helps teams like operations, support, and marketing to monitor and optimize their day-to-day processes. A major part of this project is dedicated to analyzing spikes in metrics such as engagement or sales, identifying causes behind anomalies, and guiding data-driven decision-making.
 
-In this project, you'll take on the role of a Lead Data Analyst at a company like Microsoft. You'll be provided with various datasets and tables, and your task will be to derive insights from this data to answer questions posed by different departments within the company. Your goal is to use your advanced SQL skills to analyze the data and provide valuable insights that can help improve the company's operations and understand sudden changes in key metrics.
+---
 
+##  Tools & Technologies Used
+- **SQL** (Advanced Level)
+- **Data Cleaning & Analysis**
+- **Data Exploration Techniques**
 
+---
 
-## Case Study 1: Job Data Analysis  
+##  Datasets Involved
+The project involves two major case studies with the following datasets:
 
-You will be working with a table named job_data with the following columns:
+### Case Study 1: `job_data` Table
+- `job_id`: Unique identifier of jobs
+- `actor_id`: Unique identifier of actors
+- `event`: Type of event (decision/skip/transfer)
+- `language`: Content language
+- `time_spent`: Time spent reviewing the job (in seconds)
+- `org`: Organization of the actor
+- `ds`: Date in yyyy/mm/dd format
 
-job_id: Unique identifier of jobs  
-actor_id: Unique identifier of actor      
-event: The type of event (decision/skip/transfer)  
-language: The Language of the content  
-time_spent: Time spent to review the job in seconds  
-org: The Organization of the actor  
-ds: The date in the format yyyy/mm/dd (stored as text).
+### Case Study 2:
+- `users`: Descriptive info about user accounts
+- `events`: Logs each action taken by a user
+- `email_events`: Logs user email interactions
 
-## Tasks:
+---
 
-## A. Jobs Reviewed Over Time:  
-   Objective: Calculate the number of jobs reviewed per hour for each day in November 2020.  
-   Your Task: Write an SQL query to calculate the number of jobs reviewed per hour for each day in November 2020.
+##  Case Study Tasks & Objectives
 
-## B. Throughput Analysis:  
-Objective: Calculate the 7-day rolling average of throughput (number of events per second).  
-    Your Task: Write an SQL query to calculate the 7-day rolling average of throughput. Additionally, explain whether you prefer using the     daily metric or the 7-day rolling average for throughput, and why.
+###  Case Study 1: Job Data Analysis
+1. **Jobs Reviewed Over Time**
+   - **Objective**: Calculate number of jobs reviewed per hour per day for November 2020
+   - **Deliverable**: SQL query to count jobs/hour/day
 
-## C. Language Share Analysis:  
-   Objective: Calculate the percentage share of each language in the last 30 days.  
-    Your Task: Write an SQL query to calculate the percentage share of each language over the last 30 days.
+2. **Throughput Analysis**
+   - **Objective**: Compute 7-day rolling average of events per second
+   - **Deliverable**: SQL query and analysis comparing daily vs. 7-day metrics
 
-## D. Duplicate Rows Detection:  
-   Objective: Identify duplicate rows in the data.  
-    Your Task: Write an SQL query to display duplicate rows from the job_data table.  
+3. **Language Share Analysis**
+   - **Objective**: Compute % share of each language in the last 30 days
+   - **Deliverable**: SQL query returning % language share
 
-## Case Study 2: Investigating Metric Spike  
-You will be working with three tables:
+4. **Duplicate Rows Detection**
+   - **Objective**: Identify duplicate records
+   - **Deliverable**: SQL query to display duplicate rows
 
-users: Contains one row per user, with descriptive information about that user’s account.  
-events: Contains one row per event, where an event is an action that a user has taken (e.g., login, messaging, search).  
-email_events: Contains events specific to the sending of emails.  
+---
 
-## Tasks:
+###  Case Study 2: Investigating Metric Spikes
+1. **Weekly User Engagement**
+   - **Objective**: Measure weekly user activity
+   - **Deliverable**: SQL query for engagement metrics
 
-## A. Weekly User Engagement:  
- Objective: Measure the activeness of users on a weekly basis.  
-    Your Task: Write an SQL query to calculate the weekly user engagement.
+2. **User Growth Analysis**
+   - **Objective**: Track growth trends over time
+   - **Deliverable**: SQL query measuring user increase
 
-## B. User Growth Analysis:  
-   Objective: Analyze the growth of users over time for a product.  
-    Your Task: Write an SQL query to calculate the user growth for the product.
+3. **Weekly Retention Analysis**
+   - **Objective**: Analyze user retention by weekly cohort
+   - **Deliverable**: SQL query returning retention metrics
 
-## C. Weekly Retention Analysis:  
-   Objective: Analyze the retention of users on a weekly basis after signing up for a product.  
-    Your Task: Write an SQL query to calculate the weekly retention of users based on their sign-up cohort.
+4. **Weekly Engagement per Device**
+   - **Objective**: Evaluate user activity by device type weekly
+   - **Deliverable**: SQL query measuring device-wise activity
 
-## D. Weekly Engagement Per Device:  
-   Objective: Measure the activeness of users on a weekly basis per device.  
-    Your Task: Write an SQL query to calculate the weekly engagement per device.
+5. **Email Engagement Analysis**
+   - **Objective**: Understand user interaction with emails
+   - **Deliverable**: SQL query for email open/click rates
 
-## E. Email Engagement Analysis:  
-Objective: Analyze how users are engaging with the email service.  
-Your Task: Write an SQL query to calculate the email engagement metrics.
+---
 
+##  Learning Outcomes
+- Developed strong problem-solving skills using SQL
+- Gained experience in analyzing operational data
+- Learned how to investigate and explain metric anomalies
+- Enhanced ability to support cross-functional teams with actionable insights
 
-## Dataset
+---
 
-[Case study 1 Dataset](https://drive.google.com/file/d/1t0LbH6j_hunxIvj510TvCZlCQHxiSn1X/view?usp=sharing)
+##  File Structure
+```
+/Operational-Analytics-Metric-Spike
+│
+├── README.md
+├── SQL Queries/
+│   ├── job_data_analysis.sql
+│   └── metric_spike_investigation.sql
+└── Reports/
+    └── project_insight_summary.pdf
+```
 
-[Case study 2 Dataset](https://drive.google.com/drive/folders/15AWzLtyQMeX7WyW5m6XR_h0zkz9h4Gi7?usp=sharing)
+---
 
+##  Conclusion
+This project simulates a real-world data analyst environment where operational analytics and spike investigation play a crucial role in decision-making. By leveraging structured SQL queries and analytical thinking, this case study supports improving business efficiency and understanding sudden changes in performance metrics.
+
+---
 
